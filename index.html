@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="font-awesome/to/font-awesome/css/font-awesome.min.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -15,121 +16,100 @@
             <div class="links">
                 <ul>
                   
-                    <li><a href="#name" id="name">Stephen</a></li>
-                    <li><a href="#projects" id="project"></a>Projects</li>
-                    <li><a href="#aboutme" id="about"></a>About</li>
-                    <li><a href="#contactme" id="contact"></a>Contacts</li>
+                    <li><a href="#resume" class="name" id="resume">Resume</a></li>
+                    <li><a href="#projects" id="project">Projects</a></li>
+                    <li><a href="#aboutme" id="about">About</a></li>
+                    <li><a href="#contactme" id="contact">Contacts</a></li>
                     
                 </ul>
             </div>
         </div>
     </section>
+  
+    <!--Resume Section-->
+    <section id="resume">
+     <div class="Resume-container">
+         <div class="overlay"></div>
+         <div class="text-resume">
+             <h1>
+                 <span class="firstWord">Solving</span><br> Problem & Creating <br>Solutions
+             </h1>
+           <a href="#" class="resume-cta"><span class="resume-text">Resume</span></a>
+         </div>
+     </div>
+    </section>
  
-    <!--Details section-->
-    <section id="name">
-        <div class="container">
-            <div class="overlay"></div>
-            <div class="image-container"><img src="/photos/Untitled design.png" alt=""></div>
-        </div>
-        <div class="more-details">
-            <h1>
-                <span class="first-word">Solving</span> <br /> Problems $ Creating
-                 <br />Solution
-            </h1>
-            <a href = "#" class="resume" ><span class="resume-text">resume</span></a>    
-        </div>
-    </section>
-
-    <!--project section-->
-
+    <!--Projects Section-->
     <section id="projects">
-        <div class="project-container"> 
-
-            <div class="project-header">Projects</div>
+        <div class="project-container">
+            <div class="Header">Projects</div>
             <div class="projects">
-                <div class="project-list">
-                    <div class="project1">
-                        <div class="text-container">
-                            <h2 class="name">First-project</h2>
-                            <div class="content">
-                                <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, praesentium?
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, praesentium?
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, praesentium?
-                                </p>
-                            </div>
+              <div class="project-items">
+                  <div class="first-Project">
+                      <div class="text">
+                            <h2 class="name1">First project</h2>
+                            <p class="content">Lorem ipsum dolor sitamet consectetur.
+                            Lorem ipsum dolor sit amet consectetur.
+                            </p>
                             <button class="button">
                                 <a href="#">
-                                    <h3>View project</h3>
+                                <span class="view">view project</span>
+                                </a>
+                            </button>
+                      </div>
+                  </div>
+                </div>
+                <div class="project-items">
+                    <div class="Second-Project">
+                        <div class="text">
+                            <h2 class="name1">Second project</h2>
+                            <p class="content">Lorem ipsum dolor sitamet consectetur.
+                                Lorem ipsum dolor sit amet consectetur.
+                            </p>
+                            <button class="button">
+                                <a href="#">
+                                    <span class="view">view project</span>
                                 </a>
                             </button>
                         </div>
                     </div>
-                   
                 </div>
-
-                <div class="project-list">
-                    <div class="project2">
-                        <div class="text-container">
-                            <h2 class="name">Second-project</h2>
-                            <div class="content">
-                                <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, praesentium?
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, praesentium?
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, praesentium?
-                                </p>
-                            </div>
+                <div class="project-items">
+                    <div class="Third-Project">
+                        <div class="text">
+                            <h2 class="name1">Third project</h2>
+                            <p class="content">Lorem ipsum dolor sitamet consectetur.
+                                Lorem ipsum dolor sit amet consectetur.
+                            </p>
                             <button class="button">
                                 <a href="#">
-                                    <h3>View project</h3>
+                                    <span class="view">view project</span> 
                                 </a>
                             </button>
                         </div>
                     </div>
-                
-                </div>
-
-                <div class="project-list">
-                    <div class="project3">
-                        <div class="text-container">
-                            <h2 class="name">Third-project</h2>
-                            <div class="content">
-                                <p>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, praesentium?
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, praesentium?
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, praesentium?
-                                </p>
-                            </div>
-                            <button class="button">
-                                <a href="#">
-                                    <h3>View project</h3>
-                                </a>
-                            </button>
-                        </div>
-                    </div>
-                
-                </div>
+              </div>  
             </div>
         </div>
     </section>
 
-    <section id="aboutme">
-        <div class="About-container">
-            <div class="about-section">
-                <div class="img-container">
-                    <div class="about-image"></div>
-                </div>
-                <div class="about-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nobis.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nobis.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nobis.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nobis.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nobis.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nobis.
-                    elit. At, nobis.
-                </div>
+    <!--About Section-->
+   <section id="aboutme">
+    <div class="about-container">
+        <div class="about-section">
+            <div class="img-cont">
+                <div class="img1"></div>
+            </div>
+            <div class="img-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, assumenda?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, assumenda?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, assumenda?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, assumenda?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, assumenda?
             </div>
         </div>
-    </section>
+    </div>
+   </section>
+
 </body>
 </html>
