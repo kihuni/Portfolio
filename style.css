@@ -73,9 +73,7 @@ li a {
   z-index: 2;
 }
 
-.firstWord {
-  color: #fff;
-}
+
 .resume-cta {
   border: 2px solid grey;
   width: 175px;
@@ -84,7 +82,7 @@ li a {
 }
 
 .resume-text {
-  color: black;
+  color: #fff;
 }
 
 .resume-cta:hover {
